@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/908e302119.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <nav>
+        <div class="left-nav">
+            <h1>Growpital</h1>
+            <a href="">Home</a>
+            <a href="">About</a>
+            <a href="">Service</a>
+            <a href="">Contact Us</a>
+        </div>
+        <div class="right-nav">
+            <i class="fa-regular fa-bell"></i>
+            <i class="fa fa-image-portrait"></i>
+        </div>
+    </nav>
+    <!-- <nav class="vertical">
+        <div class="menu"><i class="fa fa-bars"></i> <label>Manu</label></div><hr>
+        <div class="menu"><i class="fa fa-house-chimney"></i> <label>Home</label></div>
+        <div class="menu"><i class="fa fa-briefcase"></i> <label>Portfolio</label></div>
+        <div class="menu"><i class="fa fa-building-columns"></i> <label>Invest</label></div>
+        <div class="menu"><i class="fa fa-wallet"></i> <label>Wallet</label></div>
+        <div class="menu"><i class="fa fa-headset"></i> <label>Support</label></div> -->
+
+        <div class="container">
+            <div class="top">
+                <div class="left">
+                    <p>Money added to wallet from bank account</p>
+                <div id="transaction"  style="color: white; font-size: 20px; font-weight: 800; font-family: Ubuntu">Rs. 15,000</div>
+                <div id="date"></div>
+                </div>
+                <div class="right">
+                    <i class="fa fa-folder"></i>
+                    <i class="fa fa-xmark"></i>
+                </div>
+            </div>
+            <div class="display">
+                <div class="icon">
+                    <i class="fa fa-circle-check"></i>
+                </div>
+                <div class="message">
+                    <p class="trans" style="color: white; font-size: 20px; font-weight: 800; font-family: Ubuntu">Transaction Complete!</p>
+                    <a href="">Tap to view this transaction</a>
+                </div>
+            </div>
+            <div class="content">
+                <div class="information">
+                    <div class="info">
+                        <div class="title">From</div>
+                        <div id="fromName" style="color: white; font-size: 20px; font-weight: 800; font-family: Ubuntu"></div>
+                        <div id="fromBank" style="font-style: italic;"></div>
+                        <div id="fromAcc" style="font-style: italic;"></div>
+                        <div id="date"></div>
+                    </div>
+                    <div class="logo">
+                        SM
+                    </div>
+                </div>
+                <div class="information">
+                    <div class="info">
+                        <div class="title">To</div>
+                        <div id="toName" style="color: white; font-size: 20px; font-weight: 800; font-family: Ubuntu"></div>
+                        <div id="toBank" style="font-style: italic;"></div>
+                        <div id="toAcc" style="font-style: italic;"></div>
+                        <div id="date"></div>
+                    </div>
+                    <div class="wallet_icon">
+                        <i class="fa-sharp fa-solid fa-sack-dollar"></i>
+                    </div>
+                </div>
+                <div class="information_payment">
+                    <div id="payment">
+                        <label style="color: white;">Payment Method:</label> UPI
+                    </div>
+                    <div id="transaction_id">
+                        <label style="color: white;">Transaction ID:</label> DBTR/222201998174
+                    </div>
+                </div>
+            </div>
+            <div class="help_share">
+                <button id="help">Help</button>
+                <button id="share">Share</button>
+            </div>
+        </div>
+        <script src="script.js"></script>
+</body>
+</html>
